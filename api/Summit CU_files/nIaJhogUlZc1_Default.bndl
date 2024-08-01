@@ -1,3 +1,0 @@
-$(function(){$("[data-stable-name=CancelLink]").mousedown(function(n){n.preventDefault(),window.location.href=$(this).attr("href")}),$("[data-stable-name=ReturnToLoginLink]").mousedown(function(n){n.preventDefault(),window.location.href=$(this).attr("href")})});;
-; 
- ;
