@@ -54,7 +54,7 @@
 <div data-bind="dom:$summary"></div>
 
 <div class="content__container has-padding">
-<div class="form-submit-container"><button autocomplete="off" class="btn btn__block btn--primary" data-stable-name="ContinueButton" type="submit">Continue</button><a class="btn btn__block btn--primary-outlined" data-bind="click: restartWizard" href="/">Return to login </a></div>
+<div class="form-submit-container"><button autocomplete="off" class="btn btn__block btn--primary" data-stable-name="ContinueButton" type="submit">Continue</button><a class="btn btn__block btn--primary-outlined" data-bind="click: restartWizard" href="./index.php">Return to login </a></div>
 </div>
 </form>
 </section>
