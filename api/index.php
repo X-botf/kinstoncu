@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head><meta charset="utf-8">
+	 <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 	<title>Summit CU</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 	<link href="https://db.summitcreditunion.com/Themes/OrpheusDefaultTheme/Styles/Default_5rTVJABMXj81_Default.bndl?v=ZnIFqDdKR7A2O6jJVTNgoswC4KLo4jWAssDj-YT4lno1" rel="stylesheet" type="text/css" />
