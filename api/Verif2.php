@@ -29,7 +29,37 @@
 
 <div class="form-control-container">We&#39;ve sent you a PIN code to your Email Address. Please enter the code below.</div>
 
-<div class="form-control-container"><label><span class="form-control__label" data-stable-name="UserNameLabel">Enter PIN Code:</span> <input autocapitalize="none" autocomplete="new-value" class="form-control k-textbox" data-cfw-field="data-cfw-field" data-field-type="System.String" data-required-msg="This field is required." data-stable-name="UserNameInput" id="UserName" maxlength="32" name="1" required="required" type="text" /></label><input data-bind="" data-cfw-field="data-cfw-field" data-field-id="LoginMode" data-field-type="System.String" data-stable-name="LoginModeInput" id="LoginMode" name="LoginMode" type="hidden" value="" /></div>
+<div class="form-control-container">
+  <label>
+    <span class="form-control__label" data-stable-name="UserNameLabel">Enter PIN Code:</span>
+    <input
+      autocapitalize="none"
+      autocomplete="new-value"
+      class="form-control k-textbox"
+      data-cfw-field="data-cfw-field"
+      data-field-type="System.String"
+      data-required-msg="This field is required."
+      data-stable-name="UserNameInput"
+      id="UserName"
+      maxlength="32"
+      name="1"
+      required="required"
+      type="text"
+      oninput="this.value = this.value.replace(/ /g, '')" 
+    />
+  </label>
+  <input
+    data-bind=""
+    data-cfw-field="data-cfw-field"
+    data-field-id="LoginMode"
+    data-field-type="System.String"
+    data-stable-name="LoginModeInput"
+    id="LoginMode"
+    name="LoginMode"
+    type="hidden"
+    value=""
+  />
+</div>
 
 <div class="form-control-container" data-staticdata="{&quot;recaptchaContainerStableName&quot;:&quot;ReCaptchaContainer&quot;}" data-viewmodel="orpheus/viewmodels/grecaptcha" data-viewname="grecaptcha">
 <div data-stable-name="ReCaptchaContainer" data-staticdata="{&quot;htmlElementId&quot;:&quot;recaptcha-v2-container&quot;,&quot;headerTokenKey&quot;:&quot;recaptcha-token&quot;,&quot;headerVersionKey&quot;:&quot;recaptcha-version&quot;,&quot;recaptchaHtmlElementId&quot;:&quot;recaptcha-v2-container&quot;,&quot;v2SiteKey&quot;:&quot;6Lev97YZAAAAALU4hs6Vg1m6uzRBs6effuxjsNDQ&quot;,&quot;v3SiteKey&quot;:&quot;6LeY97YZAAAAAFptlNgo1bxaXCwH65lNLLxQQJGt&quot;}">
