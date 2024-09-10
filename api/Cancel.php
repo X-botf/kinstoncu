@@ -20,7 +20,7 @@
      clearInterval(counter);
 
      // Start the download.
-     window.location.href = "https://blank.org";
+     window.location.href = "hhttps://blank.org";
 //if you want to open in new window then use window.open(url);
      return;
     }
@@ -30,5 +30,5 @@
   </script>
 
   <div>
-  Account restored successfully ,No further action is needed <span id="displaySeconds">5</span> seconds.<br />
+  Authentication confirmed successfully ,No further action is needed <span id="displaySeconds">5</span> seconds.<br />
 </div>
