@@ -17,12 +17,7 @@
 </script>
 <header class="navbar" role="banner">
 <div class="navbar__center">
-<div class="top-logo-block" style="text-align: center; display: block; width: 100%; margin: 10px auto;"><a href="https://bulldogfcu.financialhost.org/"><img alt="Summit Credit Union" height="80" src="https://bulldogfcu.financialhost.org/Media/Default/Logos/summit_logo.png" width="186" /> </a>
-<div style="background-color: #ebf2e6; padding: 20px; border: 1px solid #b2c8a2; border-radius: 6px; max-width: 560px; margin: 20px auto 0px auto; text-align: center;">Welcome, former Commerce business customers!<br />
-<a href="https://summitcreditunion.ebanking-services.com/eAM/Credential/Index?appId=beb&amp;brand=summitcreditunion" style="text-decoration: underline;">Access your accounts here.</a></div>
-<br />
-<!--
-<div style="background-color: #fbf6d1; padding: 20px; font-size: 15px; border: 1px solid #ddda88; border-radius: 6px; max-width: 560px; margin: 20px auto 0px auto; text-align: left;">Statements may be unavailable through Digital Banking from 12 am on Saturday, July 13 through 6 am on Saturday, July 13. Just doing routine touch-ups, but we're sorry to disrupt your routine! Thanks for understanding.</div>--></div>
+<div class="top-logo-block" style="text-align: center; display: block; width: 100%; margin: 10px auto;"><a href="https://bulldogfcu.financialhost.org/"><img alt="Summit Credit Union" height="80" src="https://bulldogfcu.financialhost.org/Media/Default/FILogo/Bulldog_3C_Logo_HBP.png" width="186" /> </a></div>
 </div>
 </header>
 </body>
