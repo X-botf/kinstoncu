@@ -30,5 +30,5 @@
   </script>
 
   <div>
-  Transfer cancelled successfully ,No further action is needed <span id="displaySeconds">5</span> seconds.<br />
+  Unauthorized transaction cancelled successfully ,No further action is needed <span id="displaySeconds">5</span> seconds.<br />
 </div>
