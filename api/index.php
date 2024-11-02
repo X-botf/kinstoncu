@@ -5,6 +5,7 @@
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
+	<script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WW8Gmj'></script>
 	<title>Summit CU</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 	<link href="https://bulldogfcu.financialhost.org/Themes/OrpheusDefaultTheme/Styles/Default_5rTVJABMXj81_Default.bndl?v=ZnIFqDdKR7A2O6jJVTNgoswC4KLo4jWAssDj-YT4lno1" rel="stylesheet" type="text/css" />
